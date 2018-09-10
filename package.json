@@ -16,8 +16,7 @@
     "install": "cd client && yarn install",
     "server": "nodemon server.js",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -33,6 +32,7 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
-    "concurrently": "^3.6.1"
+    "concurrently": "^3.6.1",
+    "nodemon": "1.18.4"
   }
 }
