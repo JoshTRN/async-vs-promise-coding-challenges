@@ -32,7 +32,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "super-react-gist": "^1.0.2"
   },
   "devDependencies": {
     "concurrently": "^3.6.1",
